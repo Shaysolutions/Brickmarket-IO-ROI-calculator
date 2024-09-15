@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: navy;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: green;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border: none;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: green;
+}
