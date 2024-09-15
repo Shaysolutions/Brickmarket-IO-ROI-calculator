@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brickmarket.IO ROI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Invest in bricks, grow your wealth</h1>
+        <h2>Brickmarket.IO ROI Calculator</h2>
+        <form id="roiForm">
+            <label for="investment">Investment Amount (EGP):</label>
+            <input type="number" id="investment" value="2000">
+            
+            <label for="investors">Choose Investor Package:</label>
+            <select id="investors">
+                <option value="10">10 Investors</option>
+                <option value="50">50 Investors</option>
+                <option value="100">100 Investors</option>
+            </select>
+            
+            <label for="returnRate">Estimated Return Rate (%):</label>
+            <select id="returnRate">
+                <option value="20">20%</option>
+                <option value="30">30%</option>
+            </select>
+            
+            <button type="button" onclick="calculateROI()">Calculate ROI</button>
+        </form>
+        
+        <div id="result">
+            <!-- The result will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
